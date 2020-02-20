@@ -575,4 +575,34 @@ cat app.iml
 
 ```
 
+## changes required
 
+filenames to be updated
+
+```AppleScript
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ find . -name "*.iml"
+./app/app.iml
+./MyFirstAndroidApp.iml
+./.idea/MyFirstAndroidApp.iml
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ pwd
+/Users/abhijeet/AndroidStudioProjects/BaseAndroidApp
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ mv MyFirstAndroidApp.iml BaseAndroidApp.iml
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ cd .idea/
+Abhijeets-MacBook-Air:.idea abhijeet$ pwd
+/Users/abhijeet/AndroidStudioProjects/BaseAndroidApp/.idea
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ mv MyFirstAndroidApp.iml BaseAndroidApp.iml
+
+```
+text needs to be udpated
+
+```AppleScript
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ grep -r "MyFirstAndroidApp" *
+BaseAndroidApp.iml:<module external.linked.project.id="MyFirstAndroidApp" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+app/src/main/res/values/strings.xml:    <string name="app_name">MyFirstAndroidApp</string>
+settings.gradle:rootProject.name='MyFirstAndroidApp'
+
+```
