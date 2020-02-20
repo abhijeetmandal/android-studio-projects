@@ -57,7 +57,17 @@ pull code
 
 ```AppleScript
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git pull
-Already up to date.
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/abhijeetmandal/android-studio-projects
+   babbd1f..921c94b  master     -> origin/master
+Updating babbd1f..921c94b
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 ```
 
 git status
