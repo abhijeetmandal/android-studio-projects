@@ -23,3 +23,17 @@ app/src/main/res/values/strings.xml:    <string name="app_name">BaseAndroidApp</
 settings.gradle:rootProject.name='BaseAndroidApp'
 
 ```
+
+some more places
+
+```AppleScript
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ grep -R --exclude-dir="app/build" "myfirstandroidapp" *
+app/build.gradle:        applicationId "fit.crushit.myfirstandroidapp"
+app/src/androidTest/java/fit/crushit/myfirstandroidapp/ExampleInstrumentedTest.java:package fit.crushit.myfirstandroidapp;
+app/src/androidTest/java/fit/crushit/myfirstandroidapp/ExampleInstrumentedTest.java:        assertEquals("fit.crushit.myfirstandroidapp", appContext.getPackageName());
+app/src/test/java/fit/crushit/myfirstandroidapp/ExampleUnitTest.java:package fit.crushit.myfirstandroidapp;
+app/src/main/AndroidManifest.xml:    package="fit.crushit.myfirstandroidapp">
+app/src/main/java/fit/crushit/myfirstandroidapp/MainActivity.java:package fit.crushit.myfirstandroidapp;
+
+```
