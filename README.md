@@ -4,7 +4,9 @@ Documentations
 
 ## GIT commands
 
-```
+frequently used and useful commands 
+
+```AppleScript
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ pwd
 /Users/abhijeet/AndroidStudioProjects
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git init
@@ -44,4 +46,12 @@ To https://github.com/abhijeetmandal/android-studio-projects.git
    7133ca9..3a5f795  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+```
+
+## References
+
+Syntax highlighting
+
+```
+https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 ```
