@@ -24,7 +24,7 @@ settings.gradle:rootProject.name='BaseAndroidApp'
 
 ```
 
-some more places
+some more files
 
 ```AppleScript
 
@@ -37,3 +37,15 @@ app/src/main/AndroidManifest.xml:    package="fit.crushit.myfirstandroidapp">
 app/src/main/java/fit/crushit/myfirstandroidapp/MainActivity.java:package fit.crushit.myfirstandroidapp;
 
 ```
+
+some more folders
+
+```AppleScript
+
+Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ find . -name "myfirstandroidapp"
+./app/src/main/java/fit/crushit/myfirstandroidapp
+./app/src/androidTest/java/fit/crushit/myfirstandroidapp
+./app/src/test/java/fit/crushit/myfirstandroidapp
+
+```
+
