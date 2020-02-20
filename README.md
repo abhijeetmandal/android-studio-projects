@@ -4,7 +4,7 @@ Documentations
 
 ## GIT commands
 
-frequently used and useful commands 
+git init , add , commit , add remote , push
 
 ```AppleScript
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ pwd
@@ -27,6 +27,11 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/abhijeetmandal/android-studio-projects.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
+avoid add remote again
+
+```AppleScript
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ cp README.md README-template.md
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git add README-template.md
 Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git commit -m "adding README-template.md as a reference backup template"
@@ -46,6 +51,32 @@ To https://github.com/abhijeetmandal/android-studio-projects.git
    7133ca9..3a5f795  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
+```
+
+pull code
+
+```AppleScript
+
+```
+
+git status
+
+```AppleScript
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        MyFirstAndroidApp/
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ## References
