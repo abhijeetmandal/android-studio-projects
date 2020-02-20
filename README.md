@@ -50,8 +50,10 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 ## References
 
+Cheet sheet
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 Syntax highlighting
 
-```
 https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
-```
