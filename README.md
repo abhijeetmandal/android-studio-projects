@@ -1,88 +1,47 @@
-# Project Title
+# Android tutorial
 
-One Paragraph of project description goes here
+Documentations
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+## GIT commands
 
 ```
-Give examples
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ pwd
+/Users/abhijeet/AndroidStudioProjects
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git init
+Initialized empty Git repository in /Users/abhijeet/AndroidStudioProjects/.git/
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git add README.md
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git commit -m "adding README.md template"
+[master (root-commit) 7133ca9] adding README.md template
+ 1 file changed, 88 insertions(+)
+ create mode 100755 README.md
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git remote add origin https://github.com/abhijeetmandal/android-studio-projects.git
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.20 KiB | 617.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/abhijeetmandal/android-studio-projects.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ cp README.md README-template.md
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git add README-template.md
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git commit -m "adding README-template.md as a reference backup template"
+[master 3a5f795] adding README-template.md as a reference backup template
+ 1 file changed, 88 insertions(+)
+ create mode 100755 README-template.md
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git remote add origin https://github.com/abhijeetmandal/android-studio-projects.git
+fatal: remote origin already exists.
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 288 bytes | 288.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/abhijeetmandal/android-studio-projects.git
+   7133ca9..3a5f795  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
