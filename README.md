@@ -56,7 +56,8 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 pull code
 
 ```AppleScript
-
+Abhijeets-MacBook-Air:AndroidStudioProjects abhijeet$ git pull
+Already up to date.
 ```
 
 git status
