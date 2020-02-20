@@ -284,9 +284,14 @@ Abhijeets-MacBook-Air:MyFirstAndroidApp abhijeet$ find . -name "*"
 
 ```
 
+##AndroidManifest.xml
+
+```AppleScript
 
 cd /Users/abhijeet/AndroidStudioProjects/MyFirstAndroidApp/app/src/main/
 cat AndroidManifest.xml
+
+```
 
 ```XML
 
@@ -313,9 +318,14 @@ cat AndroidManifest.xml
 </manifest>
 
 ```
+## MainActivity.java
+
+```AppleScript
 
 cd /Users/abhijeet/AndroidStudioProjects/MyFirstAndroidApp/app/src/main/java/fit/crushit/myfirstandroidapp/
 cat MainActivity.java
+
+```
 
 ```java
 
@@ -336,8 +346,14 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
+## activity_main.xml
+
+```AppleScript
+
 cd /Users/abhijeet/AndroidStudioProjects/MyFirstAndroidApp/app/src/main/res/layout/
 cat activity_main.xml
+
+```
 
 ```XML
 
