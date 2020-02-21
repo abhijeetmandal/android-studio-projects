@@ -1,4 +1,4 @@
-package fit.crushit.myfirstandroidapp;
+package fit.crushit.baseandroidapp;
 
 import org.junit.Test;
 

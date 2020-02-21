@@ -1,4 +1,4 @@
-package fit.crushit.myfirstandroidapp;
+package com.abhijeet.deskclock;
 
 import androidx.appcompat.app.AppCompatActivity;
 

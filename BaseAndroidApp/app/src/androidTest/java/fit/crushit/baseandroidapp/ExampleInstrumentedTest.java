@@ -1,4 +1,4 @@
-package fit.crushit.myfirstandroidapp;
+package fit.crushit.baseandroidapp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("fit.crushit.myfirstandroidapp", appContext.getPackageName());
+        assertEquals("fit.crushit.baseandroidapp", appContext.getPackageName());
     }
 }
