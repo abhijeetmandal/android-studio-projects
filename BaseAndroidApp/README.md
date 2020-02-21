@@ -48,4 +48,30 @@ Abhijeets-MacBook-Air:BaseAndroidApp abhijeet$ find . -name "myfirstandroidapp"
 ./app/src/test/java/fit/crushit/myfirstandroidapp
 
 ```
+Grouping resource types (res/ directory)
 
+```
+MyProject/
+    src/
+        MyActivity.java
+    res/
+        drawable/
+            graphic.png
+        layout/
+            main.xml
+            info.xml
+        mipmap/
+            icon.png
+        values/
+            strings.xml
+
+res/
+    drawable/
+        icon.png
+        background.png
+    drawable-hdpi/
+        icon.png
+        background.png
+        
+reference: https://developer.android.com/guide/topics/resources/providing-resources#ResourceTypes
+```
